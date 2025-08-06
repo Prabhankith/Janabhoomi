@@ -24,18 +24,6 @@ Janabhoomi is a simple, elegant Streamlit app that allows users to **write daily
 
 ---
 
-📁 Project Structure
-bash
-Copy
-Edit
-janabhoomi/
-├── app.py                  # Main Streamlit app
-├── handlers/
-│   ├── db_handler.py       # MongoDB logic
-│   └── prompt_handler.py   # GPT prompt logic
-├── .env                    # (your OpenAI API key)
-├── requirements.txt        # Python dependencies
-└── README.md
 📚 Corpus Contribution
 All public diary entries are stored in MongoDB and can be exported later for building Telugu language corpora. The goal is to collect:
 
